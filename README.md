@@ -1,1 +1,7 @@
-# 0
+# 1 - VK
+  2 - YOUTUBE
+  3 - DISCORD
+  4 - STEAM
+  5 - TELEGRAM
+  6 - TWITER
+  
