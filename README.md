@@ -4,4 +4,4 @@
   5 - STEAM
   4 - TELEGRAM
   6 - TWITER
-  4 - EPIC GAMES
+  5 - EPIC GAMES
