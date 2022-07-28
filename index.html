@@ -1,0 +1,40 @@
+<!--
+  Project by Zua 
+  https://github.com/thatziv/webhook
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Отправитель вебхуков</title>
+  <meta name="author" content="Zua">
+  <meta name="description" content="Simple Discord Webhook Sender">
+  <meta name="keywords" content="discord,zua,webhook">
+  <meta name="title" content="Discord Webhook Sender">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  </head>
+  <body>
+
+    <div id="header">
+    </div>
+    <div id="container">
+      <div class="center-align">
+        <p>Ссылка на вебхук:</p><input type='text' id="link" placeholder="Сюда ссылку" value="https://discord.com/api/webhooks/1002184583472746586/ewkbvz7rVhZf_4qANLDTGYOq5IvN6Uj94PmRpGa2JKIdjTFspn_klnvPxL4soVdeUVn4">
+        <p>Имя бота:</p><input type="text" id="username" placeholder="Сюда имя" value="Отчим">
+        <p>Изображение URL:</p><input type="text" id="avatar" placeholder="Ссылка на изображение">
+        <p>Сообщение:</p><input type="text" id="content" placeholder="Сюда сообщение">
+        <br>
+        <button id="btn">Отправить</button>
+        <center>
+       <!--JS log in the works atm-->
+        <p id='log'></p>
+      </center>
+    </div>
+  </div> 
+  </div>
+ <script src="jquery.js"></script>
+  <script src="main.js"></script>
+  </body>
+</html>
